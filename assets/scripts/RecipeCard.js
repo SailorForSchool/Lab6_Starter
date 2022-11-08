@@ -14,7 +14,7 @@ class RecipeCard extends HTMLElement {
     // A3. TODO - Create a style element - This will hold all of the styles for the Web Component
     var style_el = document.createElement('style');
     // A4. TODO - Insert all of the styles from cardTemplate.html into the <style> element you just made
-    style_el.innerHTML = `
+    style_el.textContent = `
     * {
       font-family: sans-serif;
       margin: 0;
